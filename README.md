@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 Before running the script, make sure you have your Binance API key and secret key available.
 
-Paste your API key and secret key in the config.json file located in the project directory:
+Paste your API key and secret key in the `config.json` file located in the project directory (remember to give read permission only to protect your assets):
 
 ```json
 {
@@ -33,7 +33,7 @@ Paste your API key and secret key in the config.json file located in the project
 Run the script:
 
 ``` python
-script.py
+main.py
 ```
 
 The graphical interface will appear, prompting you to enter the time period for which you want to retrieve the order history. Valid options are 'today', 'yesterday', 'last 7 days', and 'last 30 days'.
