@@ -33,7 +33,7 @@ Paste your API key and secret key in the `config.json` file located in the proje
 Run the script:
 
 ``` python
-main.py
+python main.py
 ```
 
 The graphical interface will appear, prompting you to enter the time period for which you want to retrieve the order history. Valid options are 'today', 'yesterday', 'last 7 days', and 'last 30 days'.
